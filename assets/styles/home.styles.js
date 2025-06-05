@@ -186,10 +186,18 @@ export const styles = StyleSheet.create({
     fontSize: 12,
     color: COLORS.textLight,
   },
-  deleteButton: {
-    padding: 15,
+  transactionActions: {
+    flexDirection: 'row',
     borderLeftWidth: 1,
     borderLeftColor: COLORS.border,
+  },
+  editButton: {
+    padding: 15,
+    borderRightWidth: 1,
+    borderRightColor: COLORS.border,
+  },
+  deleteButton: {
+    padding: 15,
   },
   transactionsContainer: {
     marginBottom: 20,

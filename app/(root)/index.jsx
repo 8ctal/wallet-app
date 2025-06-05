@@ -10,6 +10,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { BalanceCard } from "../../components/BalanceCard";
 import { TransactionItem } from "../../components/TransactionItem";
 import NoTransactionsFound from "../../components/NoTransactionsFound";
+import SpendingLimitCard from "../../components/SpendingLimitCard";
 
 export default function Page() {
   const { user } = useUser();
@@ -69,6 +70,7 @@ export default function Page() {
         </View>
 
         <BalanceCard summary={summary} />
+        <SpendingLimitCard />
 
         <View style={styles.transactionsHeaderContainer}>
           <Text style={styles.sectionTitle}>Recent Transactions</Text>
