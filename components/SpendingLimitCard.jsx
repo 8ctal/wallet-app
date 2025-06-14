@@ -90,7 +90,7 @@ const SpendingLimitCard = () => {
             </View>
             <View style={styles.amounts}>
                 <Text style={styles.currentAmount}>${currentSpending.toFixed(2)}</Text>
-                <Text style={styles.limitAmount}>of ${spendingLimit.amount.toFixed(2)}</Text>
+                {/* <Text style={styles.limitAmount}>of ${spendingLimit.amount.toFixed(2)}</Text> */}
             </View>
         </TouchableOpacity>
     );
